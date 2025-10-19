@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+
+# Host
+Host: https://smartlearning.ug
+
+# Sitemaps
+Sitemap: https://smartlearning.ug/sitemap.xml
