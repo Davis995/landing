@@ -21,7 +21,7 @@ export default function RoleSelector() {
       features: ['Lesson Plan Generator', 'Auto Grading', 'Performance Analytics', 'Real-time Communication'],
       gradient: 'from-blue-500 to-blue-700',
       hoverGradient: 'from-blue-600 to-blue-800',
-      redirect: 'http://localhost:3001', // Teacher portal
+      redirect: 'https://teachersportal-alpha.vercel.app/', // Teacher portal
       bgPattern: 'bg-blue-50'
     },
     {
@@ -32,7 +32,7 @@ export default function RoleSelector() {
       features: ['AI Homework Helper', 'XP & Achievements', 'Study Plans', 'Progress Tracking'],
       gradient: 'from-purple-500 to-purple-700',
       hoverGradient: 'from-purple-600 to-purple-800',
-      redirect: 'http://localhost:3002', // Student portal
+      redirect: 'https://student-khaki-kappa.vercel.app/', // Student portal
       bgPattern: 'bg-purple-50'
     },
     {
@@ -43,7 +43,7 @@ export default function RoleSelector() {
       features: ['Multi-teacher Dashboard', 'School Analytics', 'Custom Branding', 'Admin Controls'],
       gradient: 'from-green-500 to-green-700',
       hoverGradient: 'from-green-600 to-green-800',
-      redirect: 'http://localhost:3003', // Private school portal (you can adjust this)
+      redirect: 'https://teacher-neon-seven.vercel.app/', // Private school portal (you can adjust this)
       bgPattern: 'bg-green-50'
     }
   ]
